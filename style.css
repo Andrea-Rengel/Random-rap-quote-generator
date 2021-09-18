@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/overpass/v5/qFdH35WCmI96Ajtm81GlU9s.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Permanent Marker';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/permanentmarker/v10/Fh4uPib9Iyv2ucM6pGQMWimMp004La2Cfw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000000;
+}
+
+.container {
+    width: 100%;
+}
+
+.header {
+    color: #E35F75;
+    font-family: 'Permanent Marker';
+    font-size: 40px;
+    text-align: center;
+    margin-top: 40px;
+    letter-spacing: 2px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+button {
+    height: 50px;
+    width: 180px;
+    background-color: #E35F75;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Overpass';
+    font-size: 19px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+button:hover {
+    background-color: #FE7F9C;
+}
+
+.quotes, .rapper {
+    text-align: center;
+    color: #E35F75;
+    font-family: 'Overpass';
+    font-size: 19px;
+    margin-top: 50px;
+}
+
+.rapper {
+    margin-top: 7px;
+    font-size: 17px;
+}
+
+
+
